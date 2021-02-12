@@ -1,17 +1,3 @@
-<div class="page-header">
-    <h1><a href="/">Django Girls Blog</a></h1>
-</div>
-And now add a class post to your div containing a blog post.
-
-blog/templates/blog/post_list.html
-<div class="post">
-    <p>published: {{ post.published_date }}</p>
-    <h2><a href="">{{ post.title }}</a></h2>
-    <p>{{ post.text|linebreaksbr }}</p>
-</div>
-We will now add declaration blocks to different selectors. Selectors starting with . relate to classes. There are many great tutorials and explanations about CSS on the Web that can help you understand the following code. For now, copy and paste it into your blog/static/css/blog.css file:
-
-blog/static/css/blog.css
 .page-header {
     background-color: #C25100;
     margin-top: 0;
